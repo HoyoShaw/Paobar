@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/transparent">
+
+     <com.hoyo.paobar.ui.view.CommonTopBar
+        android:id="@+id/main_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/card"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/main_title_bar"
+        android:layout_height="wrap_content"
+        layout="@layout/view_drawer_content" />
+   
+
+</RelativeLayout>

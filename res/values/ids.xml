@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_view" type="id"/>
+    
+    <!-- common title bar -->
+    
+    <item name="title_bar_left" type="id"/>
+    <item name="title_bar_center" type="id"/>
+    <item name="title_bar_center_right" type="id"/>
+    <item name="title_bar_right" type="id"/>
+    
+</resources>
